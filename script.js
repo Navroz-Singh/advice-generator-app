@@ -24,9 +24,9 @@ dice.addEventListener("click", function(){
             advice_number_tag.innerHTML = advice_number
         }
         advice_tag.innerHTML = advice
-    }).catch(error=>[
+    }).catch(error=>{
         console.error("We've ran into error, reload the page or come back after a few minutes.", error)
-    ])
+    })
     
     
     
